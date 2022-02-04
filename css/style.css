@@ -1,0 +1,118 @@
+body{
+	margin:1%;
+	padding:1%;
+    background-color: lemonchiffon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: darkgreen; */
+	font-weight: bold;
+    
+}
+
+nav li{
+    /* padding: 1%; */
+    /* font-family: Verdana; */
+    /* margin-top: 100px; */
+    padding: 30px;
+    padding-top: 50px;
+	width:20%;
+    display: inline;
+    /* margin: 1%; */
+    /* margin-top: 10px; */
+    /* background-color: lightseagreen; */
+    /* border: 3px solid black; */
+}
+
+.active{
+	/* background: lemonchiffon; */
+    text-transform: uppercase;
+    font-weight: bold;
+    /* border: 3px solid black; */
+	/* text-align: center; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.active a{
+	/* text-decoration: none; */
+    background-color: lightseagreen;
+    color: white;
+}
+
+a:visited{
+    color:black;
+text-decoration: none;
+}
+
+a:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 34px; 
+	font-weight: bold;
+    /* color: darkgreen; */
+    padding: 20px;
+    /* margin: 1%; */
+}
+
+h2{
+    font-size: 28px; 
+	font-weight: bold; 
+    /* color: darkgreen; */
+}
+
+h3{
+    font-size: 24px; 
+	font-weight: bold; 
+}
+
+p{
+    padding-top: 10%; 
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container {
+margin-left: 10%;
+margin-right: 10%;
+text-align: justify;
+}
+
+p, h2, h3 {
+    padding: 10px;
+    /* font-family: Verdana; */
+}
+
+img{
+    height: 350px;
+    width: auto;
+    /* border: 5px solid darkgreen; */
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s;
+    position: relative;
+ }
+
+ img:hover{
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.5);
+    filter: blur();
+}
+
+footer{
+    background-color: lightseagreen;
+}
+
+
+header, nav, main, h1, footer{
+	/* border: 2px solid grey; */
+	margin: 10px 0;
+}
